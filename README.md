@@ -1,8 +1,6 @@
-<h1 align="center">Hi 👋, I'm Vikas Shrivastava</h1>
-
-<h3 align="center">
-DevOps Engineer | Azure | Terraform | Azure DevOps
-</h3>
+<p align="center">
+  <img src="./Banner.png" alt="Vikas Shrivastava - DevOps Engineer" width="100%">
+</p>
 
 <p align="center">
 Building secure, scalable and automated cloud infrastructure on Microsoft Azure.
@@ -11,11 +9,12 @@ Building secure, scalable and automated cloud infrastructure on Microsoft Azure.
 
 ## 👨‍💻 About Me
 
-- ☁️ Working with **Microsoft Azure, Terraform and Azure DevOps**
+- ☁️ Hands-on experience with **Microsoft Azure, Terraform and Azure DevOps**
 - 🏗️ Building **reusable Infrastructure as Code** using Terraform modules
-- 🚀 Practicing **CI/CD automation** using Azure DevOps YAML pipelines
-- 🔐 Exploring **DevSecOps, Azure Firewall, Landing Zones, Hub-Spoke architecture, Kubernetes & Azure Kubernetes Service (AKS)**
-- 🌐 Learning production-style **Azure networking and cloud architecture**
+- 🚀 Implementing **CI/CD automation** using Azure DevOps YAML pipelines
+- 🔐 Working with **Azure networking, security, Application Gateway, DevSecOps and Hub-Spoke architecture**
+- 📚 Exploring **Azure Firewall, Landing Zones, Docker, Azure Kubernetes Service (AKS)**
+- 🌐 Automating infrastructure provisioning and deployment for **three-tier applications on Azure**
 
   
 
@@ -65,6 +64,24 @@ Designed and automated a production-style three-tier infrastructure on Microsoft
 **Tech:** `Azure` `Terraform` `Azure DevOps` `GitHub` `Linux` `NGINX`
 
 🔗 **Repository:** [azure-three-tier-infra](https://github.com/Vikas-Shrivastava-hub/azure-three-tier-infra)
+
+
+### 🌐 Azure Hub-and-Spoke Network Architecture
+
+Designed and deployed an Azure Hub-and-Spoke network architecture using reusable Terraform modules with centralized traffic control through Azure Firewall.
+
+**Architecture & Implementation**
+- Created separate Hub, Dev and Prod VNets using Terraform modules
+- Configured VNet Peering for Hub-and-Spoke connectivity
+- Deployed Azure Firewall with Firewall Policy and network rules
+- Implemented User Defined Routes (UDRs) to route inter-spoke traffic through Azure Firewall
+- Configured NSGs for subnet-level network security
+- Validated private connectivity between Dev and Prod VMs through Azure Firewall
+
+**Tech:** `Azure` `Terraform` `Azure Firewall` `VNet Peering` `UDR` `NSG`
+
+🔗 **Repository:** [azure-hub-spoke-terraform](https://github.com/Vikas-Shrivastava-hub/azure-hub-spoke-terraform)
+
 
 ### ☸️ Axion AKS Infrastructure
 
